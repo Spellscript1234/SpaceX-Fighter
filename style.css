@@ -1,59 +1,59 @@
-body{
+body {
   background-image: url('bg.png');
-  margin:0;
-  overflow:hidden;
+  margin: 0;
+  overflow: hidden;
 }
 
-.top{
+.top {
   display: flex;
   flex-direction: row;
   color: white;
   justify-content: end;
   font-size: 20px;
-  gap:50px;
+  gap: 50px;
 }
 
-.game-area{
-  width:90vw;
-  height:90vh;
+.game-area {
+  width: 90vw;
+  height: 90vh;
   overflow: hidden;
-  border:2px solid white;
-  left:100px;
-  position:relative;
+  border: 2px solid white;
+  left: 100px;
+  position: relative;
 }
 
-#ss{
-  position:absolute;
-  top:0px;
-  left:0px;
-  height:90px;
+#ss {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 90px;
 }
 
-#plan1{
-  width:300px;
-  height:300px;
-  position:absolute;
-  left:400px;
+#plan1 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 400px;
   top: 400px;
 }
 
-#plan2{
-  width:300px;
-  height:300px;
-  position:absolute;
-  left:100px;
-  top:80px;
+#plan2 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 80px;
 
 }
 
-#plan3{
-  width:300px;
-  height:300px;
-  position:absolute;
-  left:800px;
+#plan3 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 800px;
 }
 
-#plan4{
+#plan4 {
   width: 220px;
   height: 220px;
   position: absolute;
@@ -62,26 +62,31 @@ body{
   filter: brightness(2) drop-shadow(0 0 10px white);
 }
 
-#alien1{
-  width:70px;
-  height:80px;
-  position:absolute;
-  left:600px;
-  top:300px;
+#alien1 {
+  width: 70px;
+  height: 80px;
+  position: absolute;
+  left: 600px;
+  top: 300px;
 }
 
-#alien2{
-  width:70px;
-  height:80px;
-  position:absolute;
-  left:10px;
-  top:300px;
+#alien2 {
+  width: 70px;
+  height: 80px;
+  position: absolute;
+  left: 10px;
+  top: 300px;
 }
 
-#alien3{
-  width:70px;
-  height:80px;
-  position:absolute;
-  left:250px;
-  top:30px;
+#alien3 {
+  width: 70px;
+  height: 80px;
+  position: absolute;
+  left: 250px;
+  top: 30px;
+}
+
+#bul {
+  position: absolute;
+  height: 15px;
 }
